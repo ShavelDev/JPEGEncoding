@@ -11,8 +11,21 @@
 int main(int argc, const char * argv[]) {
     // insert code here...
     
-    CompressorJPG c("cat.bmp");
     
+    if (argc == 1) {
+        cout << "Provide the name of the BMP file" << endl;
+        return 1;
+        
+    }else{
+        CompressorJPG c;
+        if (c.compress(argv[1])) {
+            cout << "Image created successfuly" << endl;
+        }
+        
+    }
+    
+    
+
     
     return 0;
 }

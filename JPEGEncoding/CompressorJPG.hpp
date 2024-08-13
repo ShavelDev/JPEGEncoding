@@ -29,10 +29,11 @@ public:
     void writeComponents(ofstream& file, vector<bool> data);
     
     void writeToFileY(vector<bool> data, Channel& chanY);
+    void writeToFile3(string imageName, vector<bool> data, Channel& chanY, Channel& chanCb, Channel& chanCr);
     
     void readBlock(int8_t block[64]);
 
-
+    bool compress(string imageName);
     
     
     
@@ -125,7 +126,7 @@ public:
     
     
 
-    CompressorJPG(string imageName);
+    CompressorJPG();
     
     
     
