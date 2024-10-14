@@ -7,4 +7,6 @@ How to use it:
 
 <h4> Quick Conversion</h4>
 <img width="377" alt="image" src="https://github.com/user-attachments/assets/48ad7f63-06b3-42ec-bb3b-8d80eb7db731">
+This will try to find the image in the same folder as the converter and then produce an output image named the same as the input image but with different type extension.
+(in this example "cat.jpg" would be produced")
 
