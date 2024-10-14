@@ -11,7 +11,7 @@ This will try to find the image in the same folder as the converter and then pro
 The generted image will be in grayscale.
 (in this example "cat.jpg" would be produced")
 
-<h2>Disclaimers:</h2>
+<h1>Disclaimers:</h1>
 Even if the JPEG image was successfully produced it will be propably not openable by most of the programs.
 Some programs like "Gimp" will throw a "Bogus Huffman table".
 Other programs might display more ambiguous errors.
